@@ -24,6 +24,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TMP_SubMeshUI
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -37,6 +38,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Slider
   serializedClasses:
@@ -104,8 +106,8 @@ ScriptsOnlyBuild:
     fullTypeName: General.Scenes
     methodName: NextLevel
   - assembly: Assembly-CSharp
-    fullTypeName: General.Scenes
-    methodName: NextLevel
+    fullTypeName: General.SetKeyLevel
+    methodName: SetKey
   - assembly: Assembly-CSharp
     fullTypeName: General.Scenes
     methodName: NextLevel
@@ -116,14 +118,26 @@ ScriptsOnlyBuild:
     fullTypeName: General.Scenes
     methodName: NextLevel
   - assembly: Assembly-CSharp
-    fullTypeName: General.Scenes
-    methodName: NextLevel
+    fullTypeName: General.SetKeyLevel
+    methodName: SetKey
   - assembly: Assembly-CSharp
     fullTypeName: General.Scenes
     methodName: NextLevel
   - assembly: Assembly-CSharp
     fullTypeName: General.Scenes
     methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: General.SetKeyLevel
+    methodName: SetKey
+  - assembly: Assembly-CSharp
+    fullTypeName: General.Scenes
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: General.Scenes
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: General.SetKeyLevel
+    methodName: SetKey
   - assembly: Assembly-CSharp
     fullTypeName: General.LevelsChange
     methodName: NextPage
@@ -169,15 +183,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3274}
     - Class: 114
-      Script: {instanceID: 3370}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 6074}
+      Script: {instanceID: 6076}
     - Class: 114
-      Script: {instanceID: 6594}
+      Script: {instanceID: 6596}
     - Class: 114
-      Script: {instanceID: 8096}
+      Script: {instanceID: 7540}
     - Class: 114
-      Script: {instanceID: 25314}
+      Script: {instanceID: 8100}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -230,19 +244,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3274}
     - Class: 114
-      Script: {instanceID: 4260}
+      Script: {instanceID: 4262}
     - Class: 114
-      Script: {instanceID: 4382}
+      Script: {instanceID: 4384}
     - Class: 114
-      Script: {instanceID: 4662}
+      Script: {instanceID: 4664}
     - Class: 114
-      Script: {instanceID: 5448}
+      Script: {instanceID: 5450}
     - Class: 114
-      Script: {instanceID: 6074}
+      Script: {instanceID: 6076}
     - Class: 114
-      Script: {instanceID: 6594}
+      Script: {instanceID: 6596}
     - Class: 114
-      Script: {instanceID: 8096}
+      Script: {instanceID: 8100}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -278,8 +292,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -305,31 +317,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3274}
     - Class: 114
-      Script: {instanceID: 3310}
+      Script: {instanceID: 3286}
     - Class: 114
-      Script: {instanceID: 3654}
+      Script: {instanceID: 3312}
     - Class: 114
-      Script: {instanceID: 4360}
+      Script: {instanceID: 3656}
     - Class: 114
-      Script: {instanceID: 5356}
+      Script: {instanceID: 4362}
     - Class: 114
-      Script: {instanceID: 5924}
+      Script: {instanceID: 5358}
     - Class: 114
-      Script: {instanceID: 6074}
+      Script: {instanceID: 5926}
     - Class: 114
-      Script: {instanceID: 6594}
+      Script: {instanceID: 6076}
     - Class: 114
-      Script: {instanceID: 6892}
+      Script: {instanceID: 6596}
     - Class: 114
-      Script: {instanceID: 8096}
+      Script: {instanceID: 6894}
     - Class: 114
-      Script: {instanceID: 8512}
+      Script: {instanceID: 8100}
     - Class: 114
-      Script: {instanceID: 23792}
+      Script: {instanceID: 8370}
     - Class: 114
-      Script: {instanceID: 32184}
+      Script: {instanceID: 8518}
     - Class: 114
-      Script: {instanceID: 45158}
+      Script: {instanceID: 24474}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -374,6 +386,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1576}
     - Class: 114
+      Script: {instanceID: 1764}
+    - Class: 114
       Script: {instanceID: 2394}
     - Class: 114
       Script: {instanceID: 2714}
@@ -382,21 +396,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3274}
     - Class: 114
-      Script: {instanceID: 5024}
+      Script: {instanceID: 4568}
     - Class: 114
-      Script: {instanceID: 5356}
+      Script: {instanceID: 5026}
     - Class: 114
-      Script: {instanceID: 5448}
+      Script: {instanceID: 5358}
     - Class: 114
-      Script: {instanceID: 6074}
+      Script: {instanceID: 5450}
     - Class: 114
-      Script: {instanceID: 6234}
+      Script: {instanceID: 6076}
     - Class: 114
-      Script: {instanceID: 6594}
+      Script: {instanceID: 6236}
     - Class: 114
-      Script: {instanceID: 6870}
+      Script: {instanceID: 6596}
     - Class: 114
-      Script: {instanceID: 8096}
+      Script: {instanceID: 6872}
+    - Class: 114
+      Script: {instanceID: 8100}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -732,6 +748,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Template.TextMesh_Pro.Examples___Extras.Scripts
     className: Benchmark04
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: General
+    className: ChooseSketch
   - hash:
       serializedVersion: 2
       Hash: 218048bd93e908746781901d78cf0f9b
@@ -1442,6 +1464,12 @@ ScriptsOnlyBuild:
     className: TMP_TextSelector_B
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: General
+    className: SetKeyLevel
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1568,6 +1596,12 @@ ScriptsOnlyBuild:
     className: SkyboxChanger
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChooseImage
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1608,24 +1642,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: General
-    className: SetKeyLevel
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: General
-    className: ChooseSketch
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ChooseImage
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity

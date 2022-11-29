@@ -65,6 +65,7 @@
     <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Scripts\General\ChooseSketch.cs" />
     <Compile Include="Assets\Scripts\Play\MoveObjects.cs" />
     <Compile Include="Assets\Scripts\General\LevelsChange.cs" />
     <Compile Include="Assets\Template\ColorSkies\Demo\Scripts\LookCamera.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Scripts\General\SetKeyLevel.cs" />
     <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\Scripts\General\Scenes.cs" />
     <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
@@ -103,11 +105,9 @@
     <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Template\ColorSkies\Demo\Scripts\SkyboxChanger.cs" />
+    <Compile Include="Assets\Scripts\General\ChooseImage.cs" />
     <Compile Include="Assets\Scripts\Play\CameraRotateAround.cs" />
     <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\General\SetKeyLevel.cs" />
-    <Compile Include="Assets\Scripts\General\ChooseSketch.cs" />
-    <Compile Include="Assets\Scripts\General\ChooseImage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Template\TextMesh Pro\Shaders\TMPro.cginc" />
