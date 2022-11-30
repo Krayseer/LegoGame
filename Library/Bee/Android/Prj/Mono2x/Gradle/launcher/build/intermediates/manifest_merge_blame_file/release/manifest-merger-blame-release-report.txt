@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.DefaultCompany.Lego"
+3    package="com.AnyKeyers.LegoDesigner"
 4    android:installLocation="preferExternal"
 5    android:versionCode="1"
 6    android:versionName="1.0.2" >
@@ -80,8 +80,8 @@
 45-->[:unityLibrary] C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-44
 46            android:resizeableActivity="false"
 46-->[:unityLibrary] C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-47
-47            android:screenOrientation="reverseLandscape"
-47-->[:unityLibrary] C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-57
+47            android:screenOrientation="landscape"
+47-->[:unityLibrary] C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-50
 48            android:theme="@style/UnityThemeSelector" >
 48-->[:unityLibrary] C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-54
 49            <intent-filter>

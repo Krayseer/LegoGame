@@ -9,7 +9,7 @@ INJECTED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\An
 INJECTED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 	package
-		ADDED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:70-103
+		ADDED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:70-106
 		INJECTED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 		INJECTED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	android:versionName
@@ -17,7 +17,7 @@ INJECTED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\An
 		ADDED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 		INJECTED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:104-150
+		ADDED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:107-153
 	android:versionCode
 		INJECTED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 		ADDED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
@@ -25,7 +25,7 @@ INJECTED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\An
 	xmlns:android
 		ADDED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:151-191
+		ADDED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:154-194
 supports-screens
 ADDED from C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
 	android:largeScreens
@@ -103,7 +103,7 @@ ADDED from [:unityLibrary] C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\unityLi
 activity#com.unity3d.player.UnityPlayerActivity
 ADDED from [:unityLibrary] C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:9-51:20
 	android:screenOrientation
-		ADDED from [:unityLibrary] C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-57
+		ADDED from [:unityLibrary] C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-50
 	android:launchMode
 		ADDED from [:unityLibrary] C:\Lego\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-44
 	android:hardwareAccelerated

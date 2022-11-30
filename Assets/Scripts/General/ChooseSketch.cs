@@ -1,3 +1,4 @@
+using Play;
 using UnityEngine;
 
 namespace General
@@ -10,6 +11,8 @@ namespace General
             {
                 if(PlayerPrefs.GetString("level") != form.name)
                     form.gameObject.SetActive(false);
+                else
+                    form.gameObject.AddComponent<CreateSketch>();
             }
         }
     }

@@ -16,7 +16,7 @@ android {
     defaultConfig {
         minSdkVersion 22
         targetSdkVersion 30
-        applicationId 'com.DefaultCompany.Lego'
+        applicationId 'com.AnyKeyers.LegoDesigner'
         ndk {
             abiFilters 'armeabi-v7a'
         }

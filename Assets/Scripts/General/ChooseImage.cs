@@ -6,26 +6,22 @@ namespace General
 {
     public class ChooseImage : MonoBehaviour
     {
+        [SerializeField] private GameObject original;
+        
         private Transform[] currentImage;
-
         private Texture[] textures;
-
+        
         public static ChooseImage Instance;
     
         private void Start()
         {
             var lvlName = PlayerPrefs.GetString("level");
-        
             textures = Sort(Resources.LoadAll("Images/" + lvlName, typeof(Texture)).Cast<Texture>().ToArray());
-        
-            foreach (Transform form in transform)
-            {
-                if (lvlName != form.name)
-                    form.gameObject.SetActive(false);
-                else
-                    currentImage = form.GetComponentsInChildren<Transform>();
-            }
-
+            
+            for(var index = 0; index < textures.Length; index++)
+                Instantiate(original, transform, true);
+            
+            currentImage = GetComponentsInChildren<Transform>();
             for (var index = 1; index < currentImage.Length; index++)
             {
                 currentImage[index].gameObject.GetComponent<RawImage>().texture = textures[index - 1];
