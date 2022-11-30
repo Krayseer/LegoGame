@@ -1,11 +1,12 @@
+using General;
 using UnityEngine;
 
 namespace Play
 {
     public class CreateSketch : MonoBehaviour
     {
-        [SerializeField] private Material invisibleMaterial;
-        [SerializeField] private Material hintMaterial;
+        private Material invisibleMaterial;
+        private Material hintMaterial;
         private Material[] defaultMaterials;
 
         private Transform[] childrens;
@@ -22,6 +23,9 @@ namespace Play
 
         void Start()
         {
+            invisibleMaterial = Resources.Load("Materials/invisible", typeof(Material)) as Material;
+            hintMaterial = Resources.Load("Materials/hint", typeof(Material)) as Material;
+
             childrens = GetComponentsInChildren<Transform>();
             defaultMaterials = new Material[childrens.Length];
 
@@ -29,6 +33,9 @@ namespace Play
             {
                 defaultMaterials[number] = childrens[number].gameObject.GetComponent<MeshRenderer>().material;
                 childrens[number].gameObject.GetComponent<MeshRenderer>().material = invisibleMaterial;
+                childrens[number].gameObject.AddComponent<Child>();
+                if(number > 1)
+                    childrens[number].gameObject.SetActive(false);
             }
 
             spawnPosition = new Vector3(-20.7f, 28f, -46.6f);
@@ -42,6 +49,7 @@ namespace Play
                 if(index != childrens.Length - 1)
                 {
                     var newChild = Instantiate(childrens[++index].gameObject, spawnPosition, childrens[index].rotation);
+                    Destroy(newChild.GetComponent<Child>());
                     ChooseImage.Instance.SetNextImage(index);
 
                     var size = childrens[index].GetComponent<BoxCollider>().size;
@@ -69,6 +77,8 @@ namespace Play
         {
             childReference.SetActive(false);
             childrens[index].GetComponent<MeshRenderer>().material = defaultMaterials[index];
+            if (index != childrens.Length - 1)
+                childrens[index + 1].gameObject.SetActive(true);
             createChild = false;
         }
 
