@@ -29,9 +29,11 @@ namespace General
             {
                 case 1:
                     prevButton.SetActive(false);
+                    nextButton.SetActive(true);
                     break;
-                case 3:
+                case 2:
                     nextButton.SetActive(false);
+                    prevButton.SetActive(true);
                     break;
                 default:
                     nextButton.SetActive(true);

@@ -21,7 +21,7 @@ namespace Play
         private bool endGame = false;
 
 
-        void Start()
+        private void Start()
         {
             invisibleMaterial = Resources.Load("Materials/invisible", typeof(Material)) as Material;
             hintMaterial = Resources.Load("Materials/hint", typeof(Material)) as Material;
@@ -32,7 +32,7 @@ namespace Play
             for(var number = 1; number < childrens.Length; number++)
             {
                 defaultMaterials[number] = childrens[number].gameObject.GetComponent<MeshRenderer>().material;
-                childrens[number].gameObject.GetComponent<MeshRenderer>().material = invisibleMaterial;
+                childrens[number].gameObject.GetComponent<MeshRenderer>().material = hintMaterial;
                 childrens[number].gameObject.AddComponent<Child>();
                 if(number > 1)
                     childrens[number].gameObject.SetActive(false);
@@ -42,7 +42,7 @@ namespace Play
             Instance = this;
         }
 
-        void Update()
+        private void Update()
         {
             if (!createChild)
             {

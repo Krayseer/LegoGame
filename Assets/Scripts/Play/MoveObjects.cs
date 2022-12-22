@@ -73,7 +73,7 @@ namespace Play
 
                 Vector3 worldPos = cam.ScreenToWorldPoint(curPos) - previousPosition;
 
-                toDragRigidbody.velocity = worldPos / (Time.deltaTime * 10);
+                toDragRigidbody.velocity = worldPos / (Time.deltaTime * 4);
 
                 previousPosition = toDrag.position;
             }
