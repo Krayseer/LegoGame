@@ -31,7 +31,7 @@ namespace General
                     prevButton.SetActive(false);
                     nextButton.SetActive(true);
                     break;
-                case 2:
+                case 4:
                     nextButton.SetActive(false);
                     prevButton.SetActive(true);
                     break;

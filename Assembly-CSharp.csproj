@@ -74,6 +74,7 @@
      <Compile Include="Assets\Scripts\Play\HintController.cs" />
      <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\Scripts\Award\Awards.cs" />
      <Compile Include="Assets\Template\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\Scripts\Music\SliderMusicScript.cs" />
@@ -93,6 +94,7 @@
      <Compile Include="Assets\Scripts\General\ChooseImage.cs" />
      <Compile Include="Assets\Scripts\Play\CameraRotateAround.cs" />
      <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\Scripts\Award\LevelAwards.cs" />
      <None Include="Assets\Template\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Template\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Template\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

@@ -19,6 +19,29 @@ TagManager:
   - 11
   - BG_MUSIC_SLIDER
   - BG_MUSIC_CREATED
+  - 13
+  - 12
+  - 14
+  - 15
+  - 16
+  - 18
+  - 20
+  - 19
+  - 21
+  - info
+  - finish
+  - award
+  - table
+  - flower
+  - duck
+  - heart
+  - spruce
+  - amogus
+  - stairs
+  - gift
+  - chair
+  - alphabet
+  - house
   layers:
   - Default
   - TransparentFX

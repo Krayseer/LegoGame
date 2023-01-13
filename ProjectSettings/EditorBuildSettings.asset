@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Trainee.unity
     guid: 723c2d0980e2a254cb4d1548467ed05e
+  - enabled: 1
+    path: Assets/Scenes/Awards.unity
+    guid: d9083c27bd5beb9409e9c5bdcc4cb2c3
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 8c397387aeb47fb4b96b495916f14602,
       type: 2}

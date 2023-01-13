@@ -15,7 +15,7 @@ namespace Play
 
 		void Start()
 		{
-			offset = new Vector3(0.88f, -0.49f, -50);
+			offset = new Vector3(0.88f, -0.49f, -66);
 			Instance = this;
 		}
 

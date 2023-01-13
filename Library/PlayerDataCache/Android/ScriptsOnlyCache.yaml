@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Award.Awards
+    - Award.LevelAwards
     - General.ChooseImage
     - General.ChooseSketch
     - General.LevelsChange
@@ -99,6 +101,18 @@ ScriptsOnlyBuild:
     fullTypeName: General.Scenes
     methodName: NextLevel
   - assembly: Assembly-CSharp
+    fullTypeName: General.Scenes
+    methodName: NextLevel
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: General.Scenes
+    methodName: NextLevel
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
     fullTypeName: Play.HintController
     methodName: HitChange
   - assembly: Assembly-CSharp
@@ -111,24 +125,6 @@ ScriptsOnlyBuild:
     fullTypeName: General.Scenes
     methodName: NextLevel
   - assembly: Assembly-CSharp
-    fullTypeName: General.SetKeyLevel
-    methodName: SetKey
-  - assembly: Assembly-CSharp
-    fullTypeName: General.Scenes
-    methodName: NextLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: General.SetKeyLevel
-    methodName: SetKey
-  - assembly: Assembly-CSharp
-    fullTypeName: General.Scenes
-    methodName: NextLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: General.SetKeyLevel
-    methodName: SetKey
-  - assembly: Assembly-CSharp
-    fullTypeName: General.Scenes
-    methodName: NextLevel
-  - assembly: Assembly-CSharp
     fullTypeName: General.Scenes
     methodName: NextLevel
   - assembly: Assembly-CSharp
@@ -149,6 +145,42 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: General.Scenes
     methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: General.Scenes
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: General.SetKeyLevel
+    methodName: SetKey
+  - assembly: Assembly-CSharp
+    fullTypeName: General.Scenes
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: General.SetKeyLevel
+    methodName: SetKey
+  - assembly: Assembly-CSharp
+    fullTypeName: General.Scenes
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: General.SetKeyLevel
+    methodName: SetKey
+  - assembly: Assembly-CSharp
+    fullTypeName: General.Scenes
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: General.SetKeyLevel
+    methodName: SetKey
+  - assembly: Assembly-CSharp
+    fullTypeName: General.Scenes
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: General.SetKeyLevel
+    methodName: SetKey
+  - assembly: Assembly-CSharp
+    fullTypeName: General.Scenes
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: General.SetKeyLevel
+    methodName: SetKey
   - assembly: Assembly-CSharp
     fullTypeName: General.Scenes
     methodName: NextLevel
@@ -165,9 +197,71 @@ ScriptsOnlyBuild:
     fullTypeName: General.Scenes
     methodName: NextLevel
   - assembly: Assembly-CSharp
+    fullTypeName: General.SetKeyLevel
+    methodName: SetKey
+  - assembly: Assembly-CSharp
+    fullTypeName: General.Scenes
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: General.Scenes
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
     fullTypeName: General.Scenes
     methodName: NextLevel
   sceneClasses:
+    Assets/Scenes/Awards.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1580}
+    - Class: 114
+      Script: {instanceID: 2398}
+    - Class: 114
+      Script: {instanceID: 2718}
+    - Class: 114
+      Script: {instanceID: 2956}
+    - Class: 114
+      Script: {instanceID: 3278}
+    - Class: 114
+      Script: {instanceID: 6080}
+    - Class: 114
+      Script: {instanceID: 6144}
+    - Class: 114
+      Script: {instanceID: 6602}
+    - Class: 114
+      Script: {instanceID: 8106}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Levels.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -204,11 +298,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6080}
     - Class: 114
-      Script: {instanceID: 6600}
+      Script: {instanceID: 6602}
     - Class: 114
-      Script: {instanceID: 7544}
+      Script: {instanceID: 7546}
     - Class: 114
-      Script: {instanceID: 8104}
+      Script: {instanceID: 8106}
+    - Class: 114
+      Script: {instanceID: 31860}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -281,9 +377,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6080}
     - Class: 114
-      Script: {instanceID: 6600}
+      Script: {instanceID: 6602}
     - Class: 114
-      Script: {instanceID: 8104}
+      Script: {instanceID: 8106}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -356,15 +452,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6080}
     - Class: 114
-      Script: {instanceID: 6600}
+      Script: {instanceID: 6602}
     - Class: 114
-      Script: {instanceID: 8104}
+      Script: {instanceID: 8106}
     - Class: 114
-      Script: {instanceID: 8374}
+      Script: {instanceID: 8376}
     - Class: 114
-      Script: {instanceID: 8522}
+      Script: {instanceID: 8524}
     - Class: 114
-      Script: {instanceID: 24716}
+      Script: {instanceID: 25052}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -378,8 +474,6 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    - Class: 258
       Script: {instanceID: 0}
     Assets/Scenes/Settings.unity:
     - Class: 1
@@ -425,13 +519,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6080}
     - Class: 114
-      Script: {instanceID: 6240}
+      Script: {instanceID: 6242}
     - Class: 114
-      Script: {instanceID: 6600}
+      Script: {instanceID: 6602}
     - Class: 114
-      Script: {instanceID: 6876}
+      Script: {instanceID: 6878}
     - Class: 114
-      Script: {instanceID: 8104}
+      Script: {instanceID: 8106}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -482,9 +576,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6080}
     - Class: 114
-      Script: {instanceID: 6600}
+      Script: {instanceID: 6602}
     - Class: 114
-      Script: {instanceID: 8104}
+      Script: {instanceID: 8106}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1319,6 +1413,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Award
+    className: Awards
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: AnimatorMessageListener
@@ -1712,6 +1812,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Award
+    className: LevelAwards
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity
@@ -1719,4 +1825,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Settings.unity
   - Assets/Scenes/Levels.unity
   - Assets/Scenes/Trainee.unity
+  - Assets/Scenes/Awards.unity
   playerPath: C:/Unity/Lego/Build/game.apk
