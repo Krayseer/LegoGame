@@ -84,6 +84,7 @@
      <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\Scripts\General\SetKeyLevel.cs" />
+     <Compile Include="Assets\Scripts\Award\LevelAwards.cs" />
      <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\Scripts\General\Scenes.cs" />
      <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
@@ -94,7 +95,6 @@
      <Compile Include="Assets\Scripts\General\ChooseImage.cs" />
      <Compile Include="Assets\Scripts\Play\CameraRotateAround.cs" />
      <Compile Include="Assets\Template\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\Scripts\Award\LevelAwards.cs" />
      <None Include="Assets\Template\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Template\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Template\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

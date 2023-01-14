@@ -16,6 +16,7 @@ ScriptsOnlyBuild:
     - Play.ChangeSize
     - Play.HintController
     - Play.MoveObjects
+    - Template.TutorialInfo.Scripts.Readme
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
     Unity.AdaptivePerformance.dll:
@@ -247,7 +248,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6602}
     - Class: 114
-      Script: {instanceID: 8106}
+      Script: {instanceID: 8108}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -302,9 +303,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7546}
     - Class: 114
-      Script: {instanceID: 8106}
+      Script: {instanceID: 7574}
     - Class: 114
-      Script: {instanceID: 31860}
+      Script: {instanceID: 8108}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -379,7 +380,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6602}
     - Class: 114
-      Script: {instanceID: 8106}
+      Script: {instanceID: 8108}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -454,13 +455,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6602}
     - Class: 114
-      Script: {instanceID: 8106}
+      Script: {instanceID: 8108}
     - Class: 114
-      Script: {instanceID: 8376}
+      Script: {instanceID: 8378}
     - Class: 114
-      Script: {instanceID: 8524}
+      Script: {instanceID: 8526}
     - Class: 114
-      Script: {instanceID: 25052}
+      Script: {instanceID: 24044}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -525,7 +526,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6878}
     - Class: 114
-      Script: {instanceID: 8106}
+      Script: {instanceID: 8108}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -578,7 +579,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6602}
     - Class: 114
-      Script: {instanceID: 8106}
+      Script: {instanceID: 8108}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1647,6 +1648,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Award
+    className: LevelAwards
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMoveMessageListener
@@ -1812,12 +1819,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Award
-    className: LevelAwards
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity

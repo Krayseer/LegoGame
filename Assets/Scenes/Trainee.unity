@@ -400,7 +400,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 36113a4a4bf304e4b9659c757dcc796a, type: 3}
+  m_Texture: {fileID: 2800000, guid: 5fbd1ee25494a804886d05de432880e3, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
